@@ -78,7 +78,7 @@ Each capability is resolved once by `/setup` and recorded here. Downstream skill
 "capabilities": {
   "tracker":    { "tool": "azureDevOps", "kind": "mcp",     "status": "available",
                   "boundFrom": "existing-mcp", "requiredEnv": ["AZURE_DEVOPS_PAT"],
-                  "config": { "organizationId": "1Finance", "projectId": "1 Finance Website2.0",
+                  "config": { "organizationId": "AcmeCorp", "projectId": "Web Platform",
                               "storyType": "User Story", "taskType": "Task", "idLabel": "ADO" },
                   "alternatives": [] },
   "design":     { "tool": "figma",      "kind": "mcp",     "status": "available",
