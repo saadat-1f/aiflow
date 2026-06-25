@@ -1,0 +1,20 @@
+{
+  "name": "aiflow",
+  "owner": {
+    "name": "1Finance",
+    "email": "saadat.badgujar@1finance.org.in"
+  },
+  "metadata": {
+    "description": "aiflow — a deterministic, stack-agnostic spec → build → validate pipeline for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "aiflow",
+      "source": "./plugins/aiflow",
+      "description": "Deterministic, stack-agnostic dev pipeline. /setup detects your project and wires the best-suited tools/MCP into a committed profile so every developer gets the identical setup; then create → dev → test run section-by-section with a built-in build-discipline playbook. Works on web, backend, mobile, CLI, or library projects across Azure DevOps / Jira / Linear / GitHub issues, Figma or local designs, and Playwright or your own test runner.",
+      "author": { "name": "1Finance" },
+      "category": "workflow",
+      "version": "0.1.0"
+    }
+  ]
+}

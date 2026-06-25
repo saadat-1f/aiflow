@@ -1,0 +1,11 @@
+{
+  "google-docs": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "@a-bonus/google-docs-mcp"],
+    "env": {
+      "GOOGLE_CLIENT_ID": "${GOOGLE_CLIENT_ID}",
+      "GOOGLE_CLIENT_SECRET": "${GOOGLE_CLIENT_SECRET}"
+    }
+  }
+}

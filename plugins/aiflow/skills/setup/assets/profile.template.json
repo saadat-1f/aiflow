@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "setup@1.0.0",
+  "detection": {
+    "projectClass": "",
+    "candidates": [],
+    "markersMatched": [],
+    "signals": {},
+    "subProjects": []
+  },
+  "conventions": {
+    "contextCachePath": ".claude/pipeline/context-cache/{ID}",
+    "workItemsPath": ".claude/pipeline/work-items",
+    "reportsPath": ".claude/pipeline/reports",
+    "branchPattern": "feature/{TRACKER}-{ID}",
+    "commitPrefix": "{TRACKER}-{ID}: ",
+    "specLanguage": "",
+    "specDir": "",
+    "specExt": ""
+  },
+  "capabilities": {
+    "tracker": { "tool": "", "kind": "", "status": "", "boundFrom": "", "requiredEnv": [], "config": {}, "alternatives": [] },
+    "design": { "tool": "", "kind": "", "status": "", "boundFrom": "", "requiredEnv": [], "config": {} },
+    "docs": { "tool": "", "kind": "", "status": "", "boundFrom": "", "requiredEnv": [], "config": {} },
+    "runtime": { "tool": "", "kind": "command", "status": "", "config": { "command": "", "url": "" } },
+    "automation": { "tool": "", "kind": "", "status": "", "config": {} },
+    "testRunner": { "tool": "", "kind": "command", "status": "", "config": { "command": "" } },
+    "vcs": { "tool": "git", "kind": "builtin", "status": "available", "config": { "remoteHost": "" } }
+  },
+  "context": {
+    "skillPath": ".claude/skills/codebase-context",
+    "playbookPath": ".claude/skills/_shared/playbook",
+    "adaptersPath": ".claude/skills/_shared/adapters",
+    "referenceDocs": [],
+    "checklists": [],
+    "scanRoots": { "surfaces": [], "modules": [], "components": [] },
+    "surfaceNoun": ""
+  },
+  "settingsApplied": { "permissionsAdded": [], "fingerprint": "" }
+}

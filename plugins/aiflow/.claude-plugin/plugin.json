@@ -1,0 +1,9 @@
+{
+  "name": "aiflow",
+  "description": "Deterministic, stack-agnostic spec → build → validate pipeline. /setup detects the project and binds the right tools/MCP into a committed profile; create → dev → test then run with a shared build-discipline playbook. Supports web, backend, mobile, CLI, and library projects.",
+  "author": {
+    "name": "1Finance",
+    "email": "saadat.badgujar@1finance.org.in"
+  },
+  "version": "0.1.0"
+}
